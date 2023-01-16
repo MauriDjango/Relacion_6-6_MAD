@@ -10,7 +10,6 @@ class Pila<T>  {
 
     fun pop() {
         stack = stack.dropLast(1)
-
     }
 
     fun empty() = stack.isEmpty()
@@ -22,21 +21,18 @@ class Pila<T>  {
 }
 
 fun <T> reverse(numbers: List<T>): List<T> {
+
     val normalPila = Pila<T>()
-    val reversePila = Pila<T>()
-    var reverseList = emptyList<T>()
+    var reverseList = listOf<T>()
 
     for (item in numbers.iterator()) {
         normalPila.push(item)
     }
     for (item in numbers.iterator()) {
-        reversePila.push(normalPila.top())
+        reverseList = reverseList.plus(normalPila.top())
         normalPila.pop()
     }
-    for (item in numbers.iterator()) {
-        reverseList = reverseList.plus(reversePila.top())
-        reversePila.pop()
-    }
+
     return reverseList
 }
 

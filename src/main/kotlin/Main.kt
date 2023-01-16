@@ -1,13 +1,11 @@
 
 fun main() {
     val numbers = listOf("one", "two", "three", "four")
-    val numbersRev: List<String> = reverse(numbers)
+    val numbersRev = reverse(numbers)
 
-    if (!numbers.equals(numbersRev))
+    if (!listOf("four", "three", "two", "one").equals(numbersRev))
         println("Error")
-
     else
         println("Correcto")
-
-
+    println(numbersRev)
 }
