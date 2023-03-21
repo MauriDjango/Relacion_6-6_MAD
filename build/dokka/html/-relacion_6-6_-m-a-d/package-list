@@ -1,0 +1,14 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/index.html
+$dokka.location://main/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/main.html
+$dokka.location://reverse/#kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/reverse.html
+$dokka.location:/Pila///PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/index.html
+$dokka.location:/Pila/Pila/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/-pila.html
+$dokka.location:/Pila/empty/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/empty.html
+$dokka.location:/Pila/pop/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/pop.html
+$dokka.location:/Pila/push/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/push.html
+$dokka.location:/Pila/toString/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/to-string.html
+$dokka.location:/Pila/top/#/PointingToDeclaration/-relacion_6-6_-m-a-d/[root]/-pila/top.html
+
+
